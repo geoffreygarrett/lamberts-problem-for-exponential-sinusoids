@@ -10,5 +10,6 @@ LOW Thrust Lambert Targeter
 
 .. image:: examples/example1.png
    :scale: 10 %
+   :width: 200 px
    :alt: Example 1
    :align: left
