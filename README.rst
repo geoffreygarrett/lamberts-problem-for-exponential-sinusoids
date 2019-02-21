@@ -81,10 +81,10 @@ Examples
         _theta = exponential_sinusoid.get_theta_array()
         ax.plot(_theta, _r)
     ax.grid(True)
-    ax.set_title("Class $k_2={}$ Exponential Sinusoid\n".format(k2) +
+    ax.set_title("Class $k_2=1/{}$ Exponential Sinusoid\n".format(int(1/k2)) +
                  "$r_1={}$;      ".format(r1) +
                  "$r_2={}$;      ".format(r2) +
-                 "$\phi=\pi/{}$;      ".format(int(np.pi/psi)) +
+                 "$\psi=\pi/{}$;      ".format(int(np.pi/psi)) +
                  "N={}".format(number_of_revolutions)
                  , va='bottom')
     plt.savefig("example1.png")
