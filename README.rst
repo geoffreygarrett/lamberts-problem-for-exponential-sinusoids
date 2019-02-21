@@ -4,12 +4,9 @@ LOW Thrust Lambert Targeter
 This repository serves as both a (1) feature under development for use with Tudat_ and an (2) example for the use of
 Cython_ to wrap C++ libraries in Python accessible modules.
 
-
-+--------------------------+
-|        !DANGER!          |
-|                          |
-| No unit tests as of yet! |
-+--------------------------+
+.. WARNING::
+   No unit tests or module tests are in place to ensure correct installation or implementation as of yet!
+   This will be resolved soon.
 
 Versioning
 ----------
