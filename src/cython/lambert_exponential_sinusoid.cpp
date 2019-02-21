@@ -11,14 +11,15 @@
             "/home/ggarrett/env/mgod/lib/python3.7/site-packages/eigency",
             "src/cython",
             "src/cpp",
-            "\"/home/ggarrett/Repositories/tudatBundle/\"",
-            "/home/ggarrett/Repositories/tudatBundle/tudat",
-            "/home/ggarrett/Repositories/tudatBundle/eigen"
+            "/home/ggarrett/Repositories/tudatBundle/",
+            "/home/ggarrett/Repositories/tudatBundle/eigen",
+            "/home/ggarrett/Repositories/tudatBundle/tudat"
         ],
         "language": "c++",
         "name": "lambert_exponential_sinusoid",
         "sources": [
-            "src/cython/lambert_exponential_sinusoid.pyx"
+            "src/cython/lambert_exponential_sinusoid.pyx",
+            "src/cpp/lambertExponentialSinusoid.cpp"
         ]
     },
     "module_name": "lambert_exponential_sinusoid"
